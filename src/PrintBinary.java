@@ -4,18 +4,18 @@ public class PrintBinary {
         if(num >1){
             int rem = num%2;
             printBinary(num/2);
-            System.out.print(rem+" ");
+            StdOut.print(rem+" ");
         }
         else {
-            System.out.print(num + " ");
+            StdOut.print(num + " ");
         }
     }
 
     public static void main(String[] args) {
         int num;
-        System.out.print("Enter positive number: ");
+        StdOut.print("Enter positive number: ");
         num=StdIn.readInt();
-        System.out.print("Binary representation of "+num+" is: ");
+        StdOut.print("Binary representation of "+num+" is: ");
         printBinary(num);
     }
 }
