@@ -1,3 +1,5 @@
+// Use of LargestPalindrome.java from metro-cs1-ipj-selected-solutions
+// https://github.com/ivogeorg/metro-cs1-ipj-selected-solutions/blob/master/homework-solutions/largest-palindrome/src/edu/msud/cs/cs1/LargestPalindrome.java
 import java.util.ArrayList;
 public class LargestPalindrome {
     private String str,palindrome;
